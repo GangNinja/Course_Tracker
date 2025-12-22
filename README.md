@@ -8,19 +8,31 @@ Arrange the file in this directory order
 
 course_tracker/
 │
+
 ├── app/
+
 │   ├── __init__.py
+
 │   ├── main.py
+
 │   ├── database.py
+
 │   ├── models.py
+
 │   ├── schemas.py
+
 │   └── crud.py
+
 │
 ├── dashboard/
-│   └── dashboard.py
+
+│  | └── dashboard.py
+
 │
 ├── requirements.txt
+
 ├── sample_data.py
+
 └── README.md
 
 then after opening the Course_tracker file 
