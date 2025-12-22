@@ -34,6 +34,7 @@ python -m venv .venv
 #this will create the virtual environment
 
 .\.venv\Scripts\Activate.ps1 
+
 #this will activate the virtual environment
 
 pip install -r requirements.txt
@@ -84,5 +85,23 @@ Go to http://127.0.0.1:8000/docs for API Documentation after running the above m
 - To perform CRUD operations on courses, students, and enrollments
 - To analyze student performance using interactive dashboards
 - To demonstrate advanced programming and database concepts
+
+
+## Technology Stack
+
+- Backend Framework: FastAPI
+- Programming Language: Python
+- Database: SQLite (easily extendable to PostgreSQL)
+- ORM: SQLAlchemy
+- Dashboard & Visualization: Dash, Plotly
+- API Documentation: Swagger UI
+
+## Project Architecture
+
+- FastAPI handles backend logic and API endpoints
+- SQLAlchemy manages database interactions
+- Dash reads data and renders interactive dashboards
+- SQLite stores all academic records
+- Modular structure ensures maintainability and scalability
 
 
