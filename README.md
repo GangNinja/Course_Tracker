@@ -73,23 +73,6 @@ Go to http://127.0.0.1:8000/docs for API Documentation after running the above m
 
 ----------------------------------------------------------------------------
 
-
-## Features
-
-### Backend Features
-- Create, read, update, and delete courses
-- Manage student enrollments
-- Track individual student performance
-- RESTful API architecture
-- Automatic API documentation (Swagger)
-
-### Dashboard Features
-- Course-wise performance visualization
-- Student progress tracking
-- Interactive charts and analytics
-- Real-time data reflection
-
-
 ## Objectives
 
 - To design and implement a RESTful backend using FastAPI
@@ -107,6 +90,25 @@ Go to http://127.0.0.1:8000/docs for API Documentation after running the above m
 - ORM: SQLAlchemy
 - Dashboard & Visualization: Dash, Plotly
 - API Documentation: Swagger UI
+
+
+## Features
+
+### Backend Features
+- Create, read, update, and delete courses
+- Manage student enrollments
+- Track individual student performance
+- RESTful API architecture
+- Automatic API documentation (Swagger)
+
+### Dashboard Features
+- Course-wise performance visualization
+- Student progress tracking
+- Interactive charts and analytics
+- Real-time data reflection
+
+
+
 
 ## Project Architecture
 
